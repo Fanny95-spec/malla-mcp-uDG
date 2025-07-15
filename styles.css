@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f6fc;
+  color: #3a2d4f;
+  padding: 20px;
+}
+
+h1 {
+  color: #6a0dad;
+  text-align: center;
+}
+
+.malla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.ciclo {
+  background: #e6d0fa;
+  border: 2px solid #caa9f2;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.ciclo h2 {
+  background-color: #ba87e0;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.materia {
+  background: #f4e6fc;
+  margin: 5px 0;
+  padding: 5px;
+  border-left: 5px solid #a360d0;
+  border-radius: 4px;
+}
+
+.materia .nombre {
+  font-weight: bold;
+}
+
+.materia small {
+  display: block;
+  color: #555;
+}
